@@ -10,7 +10,7 @@
 #define FirestackStorage_h
 
 #import "Firebase.h"
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 #import "RCTEventEmitter.h"
 
 @interface FirestackStorage : RCTEventEmitter <RCTBridgeModule> {

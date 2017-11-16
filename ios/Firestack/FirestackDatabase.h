@@ -11,7 +11,7 @@
 
 #import "Firebase.h"
 #import "RCTEventEmitter.h"
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 
 @interface FirestackDatabase : RCTEventEmitter <RCTBridgeModule> {
 
